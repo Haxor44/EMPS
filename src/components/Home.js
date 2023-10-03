@@ -11,7 +11,7 @@ export default function Home() {
     },[]);
 
     const loadUsers = async () => {
-        const result = await axios.get("https://https://emps-hstg.onrender.com/api/v1/users/users");
+        const result = await axios.get("https://corsproxy-hnu5.onrender.com/users");
         setUsers(result.data);
     }
   return (

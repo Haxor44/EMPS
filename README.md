@@ -1,23 +1,21 @@
-# Getting Started with Create React App
+# A simple crud full stack app in React and spring boot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application provides functionality for users to create, read, update and delete employee details from a database.
 
-## Available Scripts
+## Home Page
 
-In the project directory, you can run:
+![emps](https://github.com/Haxor44/EMPS/assets/50330948/0aeca24d-635f-4f04-a235-3378f810ce27)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Registering new users
+![emps2](https://github.com/Haxor44/EMPS/assets/50330948/8deb23c9-a84b-4998-9a96-f1a722162ae9)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To register new usersgoto the above endpoint and enter the details then click submit to save them to the database.
 
-### `npm test`
+### Updating user details
+![emps3](https://github.com/Haxor44/EMPS/assets/50330948/83e6cd17-0e9a-489b-8f78-dcfa87e3b4e6)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To udpdate user details choose the user from the table and hit enter then while on the edit page enter the new user details and submit them.
 
 ### `npm run build`
 

@@ -26,12 +26,12 @@ export default function EditUser() {
 
     const onSubmit = async (e)=>{
         e.preventDefault();
-        await axios.put(`http://localhost:8080/api/v1/users/user/${id}`,user)
+        await axios.put(`https://corsproxy-hnu5.onrender.com/editUser/${id}`,user)
         navigate("/")
     }
 
     const loadUser = async ()=>{
-        const result = await axios.get(`http://localhost:8080/api/v1/users/user/${id}`)
+        const result = await axios.get(`https://corsproxy-hnu5.onrender.com/getUser/${id}`)
         setUser(result.data);
     }
   return (

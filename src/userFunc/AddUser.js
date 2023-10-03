@@ -20,7 +20,7 @@ export default function AddUser() {
 
     const onSubmit = async (e)=>{
         e.preventDefault();
-        await axios.post("http://localhost:8080/api/v1/users/addUSer",user)
+        await axios.post("https://corsproxy-hnu5.onrender.com/addUser",user)
         navigate("/")
     }
   return (
